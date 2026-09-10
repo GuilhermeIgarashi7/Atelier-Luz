@@ -302,4 +302,20 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log('%cModa Festa & Noivas - Apucarana/PR', 'color: #8B8580; font-size: 12px;');
     console.log('%cSite desenvolvido com ❤️', 'color: #C5A059; font-size: 11px;');
 
+
+     // ============================================
+    // 11. CARROSSEL HERO
+    // Inicialização explícita do Bootstrap Carousel
+    // ============================================
+    const carouselElement = document.getElementById('carouselHero');
+
+    if (carouselElement) {
+        const carouselHero = new bootstrap.Carousel(carouselElement, {
+            interval: 5000,
+            ride: 'carousel',
+            wrap: true,
+            pause: 'hover',
+            touch: true
+        });
+    }
 });

@@ -259,6 +259,11 @@ body {
     background: url('https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
 }
 
+.hero-slide-3 {
+    min-height: 90vh;
+    background: url('https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+}
+
 .hero-overlay {
     position: absolute;
     inset: 0;
@@ -297,7 +302,8 @@ body {
 
 /* Fonte Script maior no Hero */
 .hero-slide-1 .font-script,
-.hero-slide-2 .font-script {
+.hero-slide-2 .font-script, 
+.hero-slide-3 .font-script{
     font-size: 3rem !important;
     text-shadow: 0 2px 20px rgba(0,0,0,0.3);
 }
@@ -598,7 +604,8 @@ footer .font-script {
     }
 
     .hero-slide-1,
-    .hero-slide-2 {
+    .hero-slide-2,
+    .hero-slide-3 {
         min-height: 80vh;
     }
 
@@ -624,7 +631,8 @@ footer .font-script {
 
 @media (max-width: 767.98px) {
     .hero-slide-1 .font-script,
-    .hero-slide-2 .font-script {
+    .hero-slide-2 .font-script,
+    .hero-slide-3 .font-script {
         font-size: 2.2rem !important;
     }
 
@@ -667,7 +675,8 @@ footer .font-script {
     }
 
     .hero-slide-1 .btn,
-    .hero-slide-2 .btn {
+    .hero-slide-2 .btn,
+    .hero-slide-3 .btn {
         width: 100%;
         margin-bottom: 8px;
     }
